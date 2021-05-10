@@ -15,8 +15,8 @@
 ## 3. Publishing
 - InDesign 
 	- ICML
-		- export to _InCopy_ format `.md` → `.icml` using **pandoc**: `pandoc -s -f markdown -t icml -o master.icml master.md`
-		- place the `master.icml` in a text frame
+		- export to _InCopy_ format `.md` → `.icml` using **pandoc**: `pandoc -s -f markdown -t icml -o master-text.icml master-text.md`
+		- place the `master-text.icml` in a text frame
 		- edit automatically created styles in InDesign to change the presentation
 		- make all corrections in the text through original `.md`, replace `.icml` converting again through pandoc (replace) {>> can this be automated with a script? <<}
 		- update `.icml` in *document links* pane in InDesign
